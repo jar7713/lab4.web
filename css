@@ -1,0 +1,133 @@
+ /* Layout container */
+#container {
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+    padding: 20px;
+}
+
+/* Styling for single layout About Page */
+#about-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.description, .portfolio {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio h2 {
+    margin-bottom: 20px;
+}
+
+/* Grid layout for portfolio items */
+.portfolio-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: calc(33.33% - 20px);
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.image-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .portfolio-item {
+        width: 100%;
+    }
+}
+
+/* Layout container */
+#container {
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em green;
+    background-color: antiquewhite;
+}
+
+/* Styling for About Page */
+#about {
+    padding: 20px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.portfolio {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: calc(50% - 10px);
+    text-align: center;
+    padding: 15px;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+.image-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+/* Styling for Contact Page */
+#contact {
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2b83ea;
+}
