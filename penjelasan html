@@ -1,0 +1,16 @@
+Rincian Bagian Utama
+Header (<header>) – Menampilkan judul halaman "About Us".
+Deskripsi (<div class="description">) – Bagian ini menjelaskan tentang perusahaan dengan teks yang telah ditentukan.
+Portfolio (<div class="portfolio">) – Setiap item dalam portfolio menggunakan box element yang berisi gambar, nama proyek, dan deskripsi singkat.
+Footer (<footer>) – Menampilkan hak cipta dengan teks "© FAJAR GARWA SAPUTRA".
+Rincian Bagian Utama
+Header (<header>) – Menampilkan judul halaman "Contact Us".
+Form Kontak (<form>) – Terdiri dari tiga bidang input:
+Name – Input teks untuk nama pengirim.
+Email – Input untuk alamat email pengirim.
+Message – Kolom teks untuk menulis pesan.
+Footer (<footer>) – Menampilkan hak cipta yang menunjukkan nama FAJAR GARWA SAPUTRA.
+
+About Us berisi deskripsi singkat dan portfolio yang ditampilkan dalam format grid.
+Contact Us berisi form isian untuk berinteraksi dengan pengguna.
+Kedua halaman mengikuti struktur layout yang rapi dengan bagian header, konten utama (deskripsi/portfolio atau form), dan footer.
