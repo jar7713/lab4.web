@@ -1,0 +1,58 @@
+Struktur CSS dan Fungsinya
+1. Layout Container (#container)
+Width: 980px – Menentukan lebar maksimum halaman.
+Margin: 0 auto – Memusatkan konten secara horizontal.
+Box Shadow: 0 0 1em green – Menambahkan bayangan berwarna hijau di sekeliling elemen.
+Background Color: antiquewhite – Menambahkan warna latar belakang pada seluruh halaman.
+
+2. Single Layout untuk Halaman About (#about-layout)
+Display: flex – Mengatur tata letak elemen deskripsi dan portfolio dalam satu baris atau kolom (vertikal).
+Flex Direction: column – Menyusun elemen secara vertikal.
+Gap: 30px – Menambahkan jarak antara elemen deskripsi dan portfolio.
+
+3. Deskripsi dan Portfolio (.description, .portfolio)
+Padding: 15px – Menambahkan jarak di dalam elemen.
+Border: 1px solid #ddd – Membuat garis batas di sekitar elemen.
+Border Radius: 5px – Membuat sudut elemen menjadi membulat.
+Box Shadow: 0 0 10px rgba(0, 0, 0, 0.1) – Menambahkan bayangan lembut di sekitar elemen.
+
+4. Grid Layout untuk Portfolio Items (.portfolio-grid)
+Display: flex – Mengatur elemen portfolio-item dalam satu baris.
+Gap: 20px – Menambah jarak antar item.
+Flex Wrap: wrap – Mengatur elemen agar berpindah ke baris berikutnya jika ruang tidak cukup.
+5. Item Portfolio (.portfolio-item)
+Width: calc(33.33% - 20px) – Mengatur lebar setiap item agar menempati 1/3 dari lebar container.
+Text Align: center – Memusatkan teks dalam item.
+Padding, Border, dan Border Radius – Mengatur tampilan dan jarak dalam setiap item.
+Box Shadow: Memberikan bayangan ringan pada setiap item untuk menonjolkan elemen.
+
+6. Gambar Berbentuk Lingkaran (.image-circle)
+Border Radius: 50% – Membuat gambar berbentuk lingkaran.
+Width dan Height: 100px – Mengatur ukuran gambar menjadi seragam.
+
+7. Responsif untuk Portfolio Item
+@media (max-width: 768px) – Media query untuk tampilan layar kecil.
+Width: 100% – Mengatur lebar item portfolio menjadi 100% pada layar kecil, agar tampil dalam satu kolom.
+
+8. Style untuk Halaman Contact (#contact)
+Padding: 20px – Menambah jarak di dalam elemen contact.
+
+9. Form Contact
+Max Width: 600px – Mengatur lebar maksimal form agar tetap rapi.
+Margin: 0 auto – Memusatkan form di dalam halaman.
+Display: flex dan Flex Direction: column – Menyusun elemen dalam form secara vertikal.
+10. Label
+Margin Top: 10px – Menambahkan jarak vertikal antara label dan input.
+Font Weight: bold – Membuat teks label menjadi tebal.
+
+11. Input dan Textarea
+Padding: 10px – Menambah ruang di dalam elemen input.
+Border: 1px solid #ddd – Menambahkan garis batas.
+Border Radius: 4px – Membuat sudut elemen menjadi sedikit membulat.
+Width: 100% – Mengatur elemen untuk menyesuaikan lebar form.
+
+12. Button
+Padding: 10px 20px – Mengatur jarak di dalam tombol.
+Background Color: #428bca – Memberikan warna latar biru.
+Border Radius: 4px – Membuat tombol sedikit membulat.
+Hover Effect: Mengubah warna latar menjadi #2b83ea saat kursor diarahkan ke tombol.
